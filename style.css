@@ -1,0 +1,123 @@
+body{overflow-x: hidden; display: grid;margin: 0;
+}
+ul{list-style-type: none; display: grid;
+}
+ul{ font-family: Georgia, Times, "Times New Roman", serif;display: inline-block; 
+}
+#menuDeBusqueda-hombres{padding-right: 25px; text-decoration: none;position:relative;top: 37px;
+}    
+#menuDeBusqueda-mujeres{position: relative;top:37px
+}
+#menuDeBusqueda-ofertas{position: relative;top:37px
+}
+#menuDeBusqueda-nuevos{position: relative;top:37px
+}
+
+h1{font-family: "EB Garamond";font-size:160px;position:relative;bottom: 62px; left: 95px; display: grid;}
+
+.menuDeBusqueda{color:white;background-color: rgb(94, 91, 91);
+     padding: 3px 1cm 3px 2px;font-size: 20px; text-decoration: none;
+}
+.logoGrande{position: relative;left: 169px;bottom: 160px   ;
+}
+#logoOculos{position:absolute;bottom: 6px;right: 460px;
+}
+.subrayadoRojo{position: relative;left: 180px;;
+}
+
+.padreAnteojos{ display: grid; grid-template-columns: 110px 600px 600px ; grid-template-rows: auto;align-items: center;justify-items: center; 
+}
+.menuDeBusquedaPadre{background-image:url(https://static.elcorreo.com/www/multimedia/202006/07/media/cortadas/opi-portocarrero-kLeC-U110431176796zMD-1248x770@El%20Correo.jpg);background-repeat: repeat;
+          color: white; ; background-size: cover ;position:sticky;
+          display: grid;grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
+}
+.indexGrande{display: grid;grid-template-rows: 250px 260px 210px;}     
+.chicaPortada{border-style: solid;border-color: black;border-width: 1px;;padding: 8px;position:absolute ;top: 170px;right: 300px;
+}
+.carritoEscrito{position: relative;left: 300px;top: 40px;
+}
+#elCarrito{position: relative;top: 15px;left: 230px
+}
+.lineaFina{position: relative;bottom: 70px;
+}
+.contacto{display: grid;grid-template-rows: auto;position: relative;bottom:80px; left: 860px;
+}
+header{display: grid;}
+#background{background: rgb(233,207,111);background: linear-gradient(90deg, rgba(233,207,111,1) 37%, rgba(230,246,219,1) 100%);}
+
+
+@media screen and (min-width: 1100px){body{overflow-x: hidden; display: grid;
+}
+ul{list-style-type: none; display: grid;
+}
+ul{ font-family: Georgia, Times, "Times New Roman", serif;display: inline-block; 
+}
+#menuDeBusqueda-hombres{padding-right: 25px; text-decoration: none;position:relative;top: 37px;
+}    
+#menuDeBusqueda-mujeres{position: relative;top:37px
+}
+#menuDeBusqueda-ofertas{position: relative;top:37px
+}
+#menuDeBusqueda-nuevos{position: relative;top:37px
+}
+
+
+h1{font-family: "EB Garamond";font-size:160px;position:relative;bottom: 62px; left: 95px; display: grid;height: auto;width: auto;
+}
+h1{transition: all 2s;
+}
+h1:hover{;transform: rotate(5deg);}
+
+.menuDeBusqueda{color:white;background-color: rgb(94, 91, 91);
+     padding: 3px 1cm 3px 2px;font-size: 20px; text-decoration: none;
+}
+.logoGrande{position: relative;left: 169px;bottom: 160px   ;
+}
+#logoOculos{position:absolute;bottom: 6px;right: 460px;animation-name: efectoLogo;animation-iteration-count: 1;animation-timing-function: ease;animation-duration: 3s;animation-delay: 3s;
+}
+@keyframes efectoLogo{0%{width:10px}
+80%{width: 75px;}
+100%{width: auto;}
+}
+.subrayadoRojo{position: relative;left: 180px;height: auto;width: auto ;
+}
+.subrayadoRojo{transform: translate(0px,-10px);}
+.padreAnteojos{ display: grid; grid-template-columns: 110px 600px 600px ; grid-template-rows: auto;align-items: center;justify-items: center; 
+}
+.menuDeBusquedaPadre{background-image:url(https://static.elcorreo.com/www/multimedia/202006/07/media/cortadas/opi-portocarrero-kLeC-U110431176796zMD-1248x770@El%20Correo.jpg);background-repeat: repeat;
+          color: white; ; background-size: cover ;position:sticky;
+          display: grid;grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
+}
+.indexGrande{display: grid;grid-template-rows: 250px 260px 210px;}     
+.chicaPortada{border-style: solid;border-color: black;border-width: 1px;;padding: 8px;position:absolute ;top: 170px;right: 300px;
+}
+.carritoEscrito{position: relative;left: 300px;top: 40px;
+}
+#elCarrito{position: relative;top: 15px;left: 230px
+}
+.lineaFina{position: relative;bottom: 70px; z-index: -1;
+}
+.contacto{display: grid;grid-template-rows: auto;position: relative;bottom:80px; left: 860px;
+}
+input:focus{width: 100px;height: 30px;font-size: 16px;}
+header{display: grid;}}
+     
+
+
+
+
+
+
+
+@media screen and (max-width: 420px)
+{body{overflow-x: hidden;}
+.menuDeBusquedaPadre{display: grid;grid-template-columns: 140px 180px;grid-template-rows: 40px;}
+.carritoEscrito{position: absolute;left: 15px;top: 145px;font-size: 20px}
+#elCarrito{position: ;left: 17px; top: 15px;}
+h1{font-family: "EB Garamond";font-size:90px;position:relative;bottom: 1px; left: 8px; display: grid;}
+#logoOculos{position: absolute;top: 222px; right: 1136px;}
+.logoGrande{position:relative;left: 1000px;}
+.chicaPortada{position: absolute;left: 30px;top: 450px;}
+.subrayadoRojo{position: relative;left:10px;bottom: 120px;}
+.contacto{position: relative;left: 65px;}
+}
