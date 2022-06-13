@@ -8,7 +8,7 @@ ul{ font-family: Georgia, Times, "Times New Roman", serif;display: inline-block;
 }
 #menuDeBusqueda-hombres{padding-right: 25px; text-decoration: none;position:relative;top: 37px;
 }    
-#menuDeBusqueda-hombres:hover{font-size: 22px;}
+#menuDeBusqueda-hombres:hover{font-size: 22px; text-decoration: none;}
 #menuDeBusqueda-mujeres{position: relative;top:37px
 }
 #menuDeBusqueda-mujeres:hover{font-size: 22px;}
@@ -20,13 +20,11 @@ ul{ font-family: Georgia, Times, "Times New Roman", serif;display: inline-block;
 }
 #menuDeBusqueda-nuevos:hover{font-size: 22px;}
 
-h1{font-family: "EB Garamond";font-size:160px;position:relative;bottom: 62px; left: 95px; display: grid;height: auto;width: auto;
+h1{font-family: "EB Garamond";font-size:160px;position:relative;bottom: 20px; left: 95px; display: grid;height: auto;width: auto;
 }
-h1{transition: all 2s;
-}
-h1:hover{;transform: rotate(5deg);}
 
-.menuDeBusqueda{color:white;background-color: rgb(94, 91, 91);
+
+.menuDeBusqueda{color: white;background-color: rgb(94, 91, 91);
      padding: 3px 1cm 3px 2px;font-size: 20px; text-decoration: none;
 }
 .logoGrande{position: relative;left: 169px;bottom: 160px   ;
@@ -42,8 +40,8 @@ h1:hover{;transform: rotate(5deg);}
 .subrayadoRojo{transform: translate(0px,-10px);}
 .padreAnteojos{ display: grid; grid-template-columns: 110px 600px 600px ; grid-template-rows: auto;align-items: center;justify-items: center; 
 }
-.menuDeBusquedaPadre{background-image:url(https://static.elcorreo.com/www/multimedia/202006/07/media/cortadas/opi-portocarrero-kLeC-U110431176796zMD-1248x770@El%20Correo.jpg);background-repeat: repeat;
-          color: white; ; background-size: cover ;position:sticky;
+.menuDeBusquedaPadre{background-image:url(https://static.elcorreo.com/www/multimedia/202006/07/media/cortadas/opi-portocarrero-kLeC-U110431176796zMD-1248x770@El%20Correo.jpg);background-repeat: repeat; background-position-y: center;px;
+          color: white; ; background-size: cover ;position: sticky;
           display: grid;grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
 }
 .indexGrande{display: grid;grid-template-rows: 250px 260px 210px;}     
@@ -53,7 +51,7 @@ h1:hover{;transform: rotate(5deg);}
 }
 #elCarrito{position: relative;top: 15px;left: 230px
 }
-.lineaFina{position: relative;bottom: 70px; z-index: -1;
+.lineaFina{position: relative;bottom: 90px; z-index: -1;
 }
 .contacto{display: grid;grid-template-rows: auto;position: relative;bottom:80px; left: 860px;
 }
