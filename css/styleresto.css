@@ -59,10 +59,6 @@ input:focus{width: 100px;height: 30px;font-size: 16px;}
 .contacto{position: relative;left: 20px;top: 950px;}
 .lineaFina{position: relative;top: 500px;}
 .tuCarritoescritou{font-size: 57px;position: relative;}
-#fullChico{position: relative; left: 70px;}
-#typeChico{position: absolute;top: 650px; left:70px}
-#kareyChico{position:absolute;top: 950px;left: 70px;}
-#rqlChico{position: absolute;top: 1250px;left: 70px;}
 .lineaFinaCarro{position: relative;top: 950px;}
 .totalPrecio{position: absolute;top: 1500px;left: 70px;}
 .comprarBoton{position: absolute;top: 1530px;left: 210px;}
@@ -112,14 +108,7 @@ h1{font-family: "EB Garamond";;position:relative; left: 15px;bottom: 20px;
 .padreAnteojos{ display: grid; grid-template-columns: 110px 600px 600px ; grid-template-rows: auto;align-items: center;justify-items: center; 
 }
 .bordeAnteojos{border-style:solid;padding:2px;border-width: 2px;border-color: rgb(38, 6, 68)}
-.subrayadoRojo{position: absolute;left: 10px;top:230px;
-}
-#typeChico{position: absolute;top: 270px;left: 350px;
-}
-#kareyChico{position: absolute;top: 270px;left: 720px;
-}
-#rqlChico{position: absolute;top: 270px;left: 1050px;
-}
+.subrayadoRojo{position: absolute;left: 10px;top:230px;}         
 h4{font-size: 20px;
 }
 .lineaFina{position: relative;top: 10px;}
@@ -134,58 +123,3 @@ h4{font-size: 20px;
 
 
 
-/*media screen and (min-width:1100){body{overflow-x:hidden ; display: grid;
-}
-ul{list-style-type: none;
-}
-ul{ font-family: Georgia, Times, "Times New Roman", serif;display: inline-block; 
-}
-#menuDeBusqueda-hombres{padding-right: 29px; text-decoration: none;position:relative;top: 37px;}  
-#menuDeBusqueda-hombres:hover{font-size: 2px;}  
-#menuDeBusqueda-mujeres{position: relative;top:37px}
-#menuDeBusqueda-mujeres:hover{font-size: 22px;}
-#menuDeBusqueda-ofertas{position: relative;top:37px}
-#menuDeBusqueda-ofertas:hover{font-size: 22px;}
-#menuDeBusqueda-nuevos{position: relative;top:37px}
-#menuDeBusqueda-nuevos:hover{font-size: 22px;}
-
-h1{font-family: "EB Garamond";;position:relative; left: 15px;bottom: 20px;
-     font-size:65px
-}
-.menuDeBusqueda{color:white;background-color: rgb(94, 91, 91);
-     padding: 3px 1cm 3px 2px;font-size: 20px; text-decoration: none;
-}
-.subrayadoRojo{position: relative;left: 180px;bottom:90px;
-}
-
-
-#logoOculos{position:absolute;bottom: 5px;right: 460px;animation-name: efectoLogo;animation-iteration-count: 1;animation-timing-function: ease;animation-duration: 3s;animation-delay: 3s;
-}
-@keyframes efectoLogo{10%{width:10px}
-80%{width: 75px;}
-100%{width: auto;}}
-
-.menuDeBusquedaPadre{background-image:url(https://static.elcorreo.com/www/multimedia/202006/07/media/cortadas/opi-portocarrero-kLeC-U110431176796zMD-1248x770@El%20Correo.jpg);background-repeat: repeat;
-     color: white; ; background-size: cover ; 
-     display: grid;grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
-}
-.chicaPortada{border-style: solid;border-color: black;border-width: 1px;;padding: 8px;position:absolute ;top: 170px;right: 300px;
-}
-.carritoEscrito{position: relative;left: 300px;top: 40px;
-}
-#elCarrito{position: relative;top: 15px;left: 230px
-}
-.padreAnteojos{ display: grid; grid-template-columns: 110px 600px 600px ; grid-template-rows: auto;align-items: center;justify-items: center; 
-}
-.bordeAnteojos{border-style:solid;padding:2px;border-width: 2px;border-color: rgb(38, 6, 68)}
-.subrayadoRojo{position: absolute;left: 10px;top:230px;
-}
-#typeChico{position: absolute;top: 270px;left: 350px;
-}
-#kareyChico{position: absolute;top: 270px;left: 720px;
-}
-#rqlChico{position: absolute;top: 270px;left: 1050px;
-}
-h4{font-size: 20px;
-}
-.contacto{display: grid;grid-template-rows: auto;position: relative;bottom:10px; left: 860px;}}\*
