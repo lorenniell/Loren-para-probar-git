@@ -1,0 +1,95 @@
+body{margin: 0%;}
+@import "color";
+@media screen and (min-width: 1100px){body{overflow-x: hidden; display: grid;
+}
+ul{list-style-type: none; display: grid;
+}
+ul{ font-family: Georgia, Times, "Times New Roman", serif;display: inline-block; 
+}
+
+#menuDeBusqueda-hombres{padding-right: 25px; text-decoration: none;position:relative;top: 37px;
+&:hover{font-size: 22px; text-decoration: none;color: white;}}
+
+#menuDeBusqueda-mujeres{position: relative;top:37px;
+&:hover{font-size: 22px;color: white;}}
+
+#menuDeBusqueda-ofertas{position: relative;top:37px;
+&:hover{font-size: 22px;color: white;}}
+
+#menuDeBusqueda-nuevos{position: relative;top:37px;
+&:hover{font-size: 22px;color: white;}}
+.carritoEscrito{position: relative;left: 410px;top: 30px; color: white;
+}
+#elCarrito{position: relative;top: 15px;left: 400px
+}
+#logoOculos{position:absolute;bottom: 555px;right: 358px;animation-name: efectoLogo;animation-iteration-count: 1;animation-timing-function: ease;animation-duration: 3s;animation-delay: 3s;
+}
+.menuDeBusqueda{color: white;background-color: $colorGris;
+     padding: 3px 1cm 3px 2px;font-size: 20px; text-decoration: none;
+}
+h1{font-family: "EB Garamond";font-size:160px;position:relative;bottom: 20px; left: 95px; display: grid;height: auto;width: auto;
+}
+.logoGrande{position: relative;left: 169px;bottom: 160px   ;
+}
+@keyframes efectoLogo{10%{width:10px}
+80%{width: 75px;}
+100%{width: auto;}
+}
+.subrayadoRojo{position: relative;left: 175px; bottom:60px;height: auto;width: auto ;
+}
+.subrayadoRojo{transform: translate(0px,-10px);
+}
+.menuDeBusquedaPadre{
+          color: white; ; background-size: cover ;position: sticky;
+          display: grid;grid-template-columns: 150px 150px 150px 150px 150px 150px 150px; 
+}
+.indexGrande{display: grid;grid-template-rows: 250px 260px 210px;
+}     
+.chicaPortada{border-style: solid;border-color: black;border-width: 1px;;padding: 8px;position:absolute ;top: 170px;right: 300px;
+}
+.lineaFina{position: relative;bottom: 90px; z-index: -1;
+}
+.contacto{display: grid;grid-template-rows: auto;position: relative;bottom:80px; left: 860px;
+}
+input:focus{width: 100px;height: 30px;font-size: 16px;}
+header{display: grid;}}
+     
+
+
+
+
+
+
+@import "colore"
+@media screen and (max-width: 420px)
+{body{overflow-x: hidden;}
+.menuDeBusquedaPadre{display: grid;grid-template-columns: 140px 180px;grid-template-rows: 40px;}
+.carritoEscrito{position: absolute;left: 29px;top: 659px;font-size: 20px;color: white;}
+#elCarrito{position:absolute ;left: 189px; top:650px;}
+h1{font-family: "EB Garamond";font-size:90px;position:relative;bottom: 1px; left: 8px; display: grid;}
+#logoOculos{position: absolute;top: 100px; right: 26px;}
+.logoGrande{position:relative;left: 1000px;}
+.chicaPortada{position: absolute;left: 30px;top: 450px;}    
+.subrayadoRojo{position: relative;left:10px;bottom: 240px;}
+.contacto{position: relative;left: 65px;}
+.menuDeBusqueda{color: white;background-color: rgb(94, 91, 91);
+     padding: 3px 1cm 3px 2px;font-size: 20px; text-decoration: none;
+}
+#menuDeBusqueda-hombres{padding-right: 25px; text-decoration: none;position:absolute;top: 1px;
+&:hover{font-size: 22px; text-decoration: none;position:absolute;top:2x}}
+
+#menuDeBusqueda-mujeres{padding-right: 25px; text-decoration: none;position:absolute;top: 50px;left: 49px;
+&:hover{font-size: 22px;}}
+
+#menuDeBusqueda-ofertas{position: absolute;top:2px;right: 60px;
+&:hover{font-size: 22px;}}
+
+#menuDeBusqueda-nuevos{position: absolute;top:49px;right: 60px;
+&:hover{font-size: 22px;
+}}
+.subrayadoRojo{position: relative;left: 20px; bottom: 25px;height: auto;width: auto ;
+}    
+.logoGrande{position:absolute;left: 569px;bottom: 160px   ;max-width: min-content;
+}
+.chicaPortada{position: relative;top: 1px;}
+}
