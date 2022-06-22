@@ -1,37 +1,71 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oculos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" type="text oculos" href="//fonts.googleapis.com/css?family=EB+Garamond" />
+</head>
+<body>  
+    <header>
+      <div class="container-fluid">
+        <div style="height: 100px; background-color:black;">
+  <div><nav class="menuDeBusquedaPadre" >
+         </div>
+            <ul><a href="./Paginas/hombres.html"class="menuDeBusqueda" id="menuDeBusqueda-hombres">Hombres</a></ul>
+           <ul> <a href="./Paginas/mujere.html"class="menuDeBusqueda"id="menuDeBusqueda-mujeres">Mujeres </a></ul>
+           <ul> <a href="./Paginas/nuevos.html"class="menuDeBusqueda"id="menuDeBusqueda-nuevos">Nuevos</a></ul>
+            <ul><a href="./Paginas/ofertas.html"class="menuDeBusqueda"id="menuDeBusqueda-ofertas">Ofertas</a></p></ul>
+            <ul><img src="./fotos/logo oculos.jpeg" id="logoOculos"></ul>
+            <ul class="carritoEscrito">Tu carrito:</ul>
+            <ul><a href="./Paginas/carrito.html" id="elCarrito"><img src="./fotos/carritochico.png"></a></ul>
+            <ul> <div ></div></ul> 
+            <header>     
+     </nav> </div>
+      </div>
+        <div class="indexGrande">
+        <h1><b> Oculos </b></h1>
+        <h2> <img src="./fotos/imagen roja.jpg" class="subrayadoRojo" class="subrayadoEfecto"></h2>
+        <h3> <img src="fotos/logo oculos - grande}.jpeg" class="logoGrande"></h3>
+        </div>
+   
+             <h2><img src="./fotos/probando.png"class="chicaPortada"></h2> 
+        </header>
+       <footer>
+        <img src="./fotos/linea negra fina.png" class="lineaFina">
+        <nav class="contacto">
+            <ul> Encontranos: <a href="https://www.instagram.com/"><img src="./fotos/ig chico.png"class="fotoig"></a>          
+                                        <a href="https://twitter.com/?lang=es"><img src="./fotos/twiter chico.png"></a></ul> 
+                <br> 
+               <small class="contactoBajo">Contactanos:
+                <form>
+                  Nombre completo:  <input name="Nombre" class="nombreEfecto"/>
+                    <div>Hombre</div>
+                    <input type="radio"name="sexo"value="hombres"/>
+                    <div>Mujer</div>
+                    <input type="radio"name="sexo"value="muejer"/>
+                    <div>Prefiero no decirlo</div>
+                    <input type="radio"name="sexo"value="prefiero no decirlo"/>
+                 <br>
+                <div class="form-group">
+                  <label for="mail">Email:</label>
+                                     <input name="mail" class="mailEfecto">
+                    <br>
+                    <br>
+                    <input type="submit"value="enviar"/>
+                  
+                  </form></small>
+                 </div>
+            
 
-You can use the [editor on GitHub](https://github.com/lorenniell/Loren-para-probar-git/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+            </ul>
+       </nav>
+    </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lorenniell/Loren-para-probar-git/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
