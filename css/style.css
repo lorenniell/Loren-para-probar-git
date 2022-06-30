@@ -1,8 +1,8 @@
 body {
   margin: 0%;
 }
-
-@media screen and (min-width: 1100px) {
+@import "colores";
+@media screen and (min-width: 1100px) {@import "colores";
   body {
     overflow-x: hidden;
     display: grid;
@@ -24,37 +24,37 @@ body {
     position: relative;
     top: 37px;
   }
+
   #menuDeBusqueda-hombres:hover {
     font-size: 22px;
     text-decoration: none;
-    color: white;
   }
 
   #menuDeBusqueda-mujeres {
     position: relative;
     top: 37px;
   }
+
   #menuDeBusqueda-mujeres:hover {
     font-size: 22px;
-    color: white;
   }
 
   #menuDeBusqueda-ofertas {
     position: relative;
     top: 37px;
   }
+
   #menuDeBusqueda-ofertas:hover {
     font-size: 22px;
-    color: white;
   }
 
   #menuDeBusqueda-nuevos {
     position: relative;
     top: 37px;
   }
+
   #menuDeBusqueda-nuevos:hover {
     font-size: 22px;
-    color: white;
   }
 
   .carritoEscrito {
@@ -65,7 +65,7 @@ body {
   }
 
   #elCarrito {
-    position: relative;
+    position: relative; 
     top: 15px;
     left: 400px;
   }
@@ -85,10 +85,11 @@ body {
     -webkit-animation-delay: 3s;
             animation-delay: 3s;
   }
-
+@import "color";
   .menuDeBusqueda {
+  
     color: white;
-    background-color: rgb(94, 91, 91);
+    background-color:rgb(94, 91, 91);
     padding: 3px 1cm 3px 2px;
     font-size: 20px;
     text-decoration: none;
@@ -270,6 +271,7 @@ body {
     position: absolute;
     top: 1px;
   }
+
   #menuDeBusqueda-hombres:hover {
     font-size: 22px;
     text-decoration: none;
@@ -284,6 +286,7 @@ body {
     top: 50px;
     left: 49px;
   }
+
   #menuDeBusqueda-mujeres:hover {
     font-size: 22px;
   }
@@ -293,6 +296,7 @@ body {
     top: 2px;
     right: 60px;
   }
+
   #menuDeBusqueda-ofertas:hover {
     font-size: 22px;
   }
@@ -302,6 +306,7 @@ body {
     top: 49px;
     right: 60px;
   }
+
   #menuDeBusqueda-nuevos:hover {
     font-size: 22px;
   }

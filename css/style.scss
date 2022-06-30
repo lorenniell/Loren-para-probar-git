@@ -1,5 +1,9 @@
 body{margin: 0%;}
 @import "color";
+$mapaColor:(viole:#42033d
+gri:#5e5b5b
+blanc:#ffffff
+);
 @media screen and (min-width: 1100px){body{overflow-x: hidden; display: grid;
 }
 ul{list-style-type: none; display: grid;
@@ -8,16 +12,16 @@ ul{ font-family: Georgia, Times, "Times New Roman", serif;display: inline-block;
 }
 
 #menuDeBusqueda-hombres{padding-right: 25px; text-decoration: none;position:relative;top: 37px;
-&:hover{font-size: 22px; text-decoration: none;color: white;}}
+&:hover{font-size: 22px; text-decoration: none;color:white;}}
 
 #menuDeBusqueda-mujeres{position: relative;top:37px;
 &:hover{font-size: 22px;color: white;}}
-
+/*.menuDeBusqueda-ofertas{@include .menuDeBusqueda-mujeres} */ 
 #menuDeBusqueda-ofertas{position: relative;top:37px;
 &:hover{font-size: 22px;color: white;}}
-
+/*.menuDeBusqueda-nuevos{@include .menuDeBusqueda-mujeres} */ 
 #menuDeBusqueda-nuevos{position: relative;top:37px;
-&:hover{font-size: 22px;color: white;}}
+&:hover{font-size: 22px;color: #ffffff;}}
 .carritoEscrito{position: relative;left: 410px;top: 30px; color: white;
 }
 #elCarrito{position: relative;top: 15px;left: 400px
@@ -39,7 +43,7 @@ h1{font-family: "EB Garamond";font-size:160px;position:relative;bottom: 20px; le
 }
 .subrayadoRojo{transform: translate(0px,-10px);
 }
-.menuDeBusquedaPadre{
+.menuDeBusquedaPadre{@extend.menuDeBusqueda;
           color: white; ; background-size: cover ;position: sticky;
           display: grid;grid-template-columns: 150px 150px 150px 150px 150px 150px 150px; 
 }
@@ -60,7 +64,7 @@ header{display: grid;}}
 
 
 
-@import "colore"
+@import "colore";
 @media screen and (max-width: 420px)
 {body{overflow-x: hidden;}
 .menuDeBusquedaPadre{display: grid;grid-template-columns: 140px 180px;grid-template-rows: 40px;}
