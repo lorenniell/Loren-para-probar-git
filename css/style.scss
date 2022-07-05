@@ -15,10 +15,12 @@ ul{ font-family: Georgia, Times, "Times New Roman", serif;display: inline-block;
 &:hover{font-size: 22px; text-decoration: none;color:white;}}
 
 #menuDeBusqueda-mujeres{position: relative;top:37px;
-&:hover{font-size: 22px;color: white;}}
+&:hover{font-size: 22px;
+     color: white;}}
 /*.menuDeBusqueda-ofertas{@include .menuDeBusqueda-mujeres} */ 
 #menuDeBusqueda-ofertas{position: relative;top:37px;
-&:hover{font-size: 22px;color: white;}}
+&:hover{font-size: 22px;
+     color: white;}}
 /*.menuDeBusqueda-nuevos{@include .menuDeBusqueda-mujeres} */ 
 #menuDeBusqueda-nuevos{position: relative;top:37px;
 &:hover{font-size: 22px;color: #ffffff;}}

@@ -103,8 +103,7 @@ h1{font-family: "EB Garamond";font-size:90px;position:relative;top: 35px; left: 
 }
 .chicaPortada{position: relative;top: 1px;}
 
-
-
+@include media-breakpoint-only(sm) {
 }
 
 
@@ -140,6 +139,7 @@ h1{font-family: "EB Garamond";;position:relative; right: 1px;top: 20px;
 }
 .subrayadoRojo{position: relative;left: 100px;bottom:190px;
 }
+.añadirAlCarro{font-size: small;}
 .menuDeBusquedaPadre{ color: white; ; background-size: cover ;position:sticky;
      display: grid;grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
 }
@@ -154,4 +154,4 @@ h4{font-size: 20px;
 
 .contacto{display: grid;grid-template-rows: auto;position: relative;bottom:10px; left: 860px;}
 input:focus{width: 100px;height: 30px;font-size: 16px;}
-}
+}}

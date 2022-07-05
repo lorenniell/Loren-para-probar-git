@@ -101,6 +101,8 @@ h1 {
   left: 100px;
   bottom: 190px;
 }
+.añadirAlCarro{font-size: small; background-color: #141619;color: rgb(219, 210, 210);font-family: Verdana, Geneva, Tahoma, sans-serif;
+position: relative;left: 90px;}
 
 .menuDeBusquedaPadre {
   color: white;

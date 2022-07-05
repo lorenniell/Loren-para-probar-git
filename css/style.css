@@ -28,6 +28,7 @@ body {
   #menuDeBusqueda-hombres:hover {
     font-size: 22px;
     text-decoration: none;
+    color: white;
   }
 
   #menuDeBusqueda-mujeres {
@@ -37,6 +38,7 @@ body {
 
   #menuDeBusqueda-mujeres:hover {
     font-size: 22px;
+    color: white;
   }
 
   #menuDeBusqueda-ofertas {
@@ -46,6 +48,7 @@ body {
 
   #menuDeBusqueda-ofertas:hover {
     font-size: 22px;
+    color: white;
   }
 
   #menuDeBusqueda-nuevos {
@@ -55,6 +58,7 @@ body {
 
   #menuDeBusqueda-nuevos:hover {
     font-size: 22px;
+    color: white;
   }
 
   .carritoEscrito {
@@ -276,7 +280,7 @@ body {
     font-size: 22px;
     text-decoration: none;
     position: absolute;
-    top: 2x;
+    top: 2x;color: white;
   }
 
   #menuDeBusqueda-mujeres {
@@ -288,7 +292,7 @@ body {
   }
 
   #menuDeBusqueda-mujeres:hover {
-    font-size: 22px;
+    font-size: 22px;color: white;
   }
 
   #menuDeBusqueda-ofertas {
@@ -299,6 +303,7 @@ body {
 
   #menuDeBusqueda-ofertas:hover {
     font-size: 22px;
+    color: white;
   }
 
   #menuDeBusqueda-nuevos {
@@ -309,6 +314,7 @@ body {
 
   #menuDeBusqueda-nuevos:hover {
     font-size: 22px;
+    color: white;
   }
 
   .subrayadoRojo {
